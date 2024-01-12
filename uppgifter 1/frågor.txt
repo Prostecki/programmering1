@@ -1,0 +1,33 @@
+1.Vad menas med källkod? 
+
+# Källkod, även kallat källkodsfil eller bara kod, är den mänskligt läsbara texten som utgör en datorprogramvara. Det är den uppsättning instruktioner och kommandon som en programmerare skriver för att skapa ett program. Källkoden är skriven i ett programmeringsspråk och innehåller de logiska och syntaktiska elementen som behövs för att beskriva hur programmet ska fungera.
+
+2.Beskriv skillnaden mellan lågnivåspråk (assembleringsspråk) och högnivåspråk? Ge exempel.
+
+# Lågnivåspråk (Assembler): Närmare maskinkoden, svårare att läsa, mer kontroll över hårdvaran.
+# Högnivåspråk: Mer abstrakt, lättare att läsa, mer portabelt, mindre kontroll över hårdvaran.
+
+Exempel: 
+# Lågnivåspråk: Assemblerspråk (till exempel x86).
+# Högnivåspråk: C++, Java, Python.
+
+3.Vad är kompilator? 
+
+# En kompilator är en programvara som översätter högnivåkod, som skriven i språk som C++ eller Java, till maskinkod eller ett annat lågnivåformat. Det möjliggör exekvering av program på specifika datorarkitekturer genom att omvandla mänskligt läsbar kod till ett format som datorn kan förstå och köra.
+
+# Källkod ---->>> kompilering ---->>> maskinkod
+
+4.Vad menas med escapesekvenser i strängar? Visa några exempel.
+
+# Escapesekvenser i strängar Escape är egentligen en kod som i datasammanhang kan läggas in för att markera att det som följer har en särskild betydelse på något sätt. Dels kan det behövas för att infoga ett citationstecken av samma typ som de som omger strängen, dels kan de användas som så kallade styrkoder för att styra utskriften på olika sätt. I strängar både i Python och mânga andra programmeringsspråk använder man en backslash följt av ett annat tecken för att markera olika saker i en text.
+
+Nytt rad-tecken \n - print("Första raden.\nAndra raden.")
+Tabulator \t - print("Första kolumn\tAndra kolumn.")
+Citattecken \" - print("Han sa, \"Hej!\"")
+Bakåtstreck \\ - print("C:\\Användare\\Dokument")
+Unicode-tecken \uXXXX - print("\u03B1")  # Skriver ut det grekiska bokstaven alfa (α)
+osv.
+
+5.Vad är IDLE?
+
+# IDLE är en integrerad utvecklingsmiljö (IDE) för Python. Det erbjuder en användarvänlig plattform för att skriva, testa och köra Python-kod. IDLE levereras som standard med Python-distributionen och inkluderar en textredigerare, en interaktiv Python-konsol och möjlighet att köra Python-skript.
