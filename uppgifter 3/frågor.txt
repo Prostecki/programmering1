@@ -1,0 +1,32 @@
+E - Nivå
+
+1. Iteration i programmering hänvisar till processen att upprepa en sekvens av instruktioner eller en block av kod ett visst antal gånger eller tills ett villkor är uppfyllt.
+
+Exempel på for-loop i Python:
+# For-loop för att skriva ut talen från 0 till 4
+for i in range(5):
+    print(i)
+
+Exempel på while-loop i Python:
+# While-loop för att skriva ut talen från 0 till 4
+j = 0
+while j < 5:
+    print(j)
+    j += 1
+
+2. Tal i range(3, 31, 3):
+range(3, 31, 3) inkluderar talen från 3 till 30 med steg om 3, exempelvis: 
+# Kodexempel för att skriva ut talen i range(3, 31, 3) på en rad
+for num in range(3, 31, 3):
+    print(num, end=' ')
+
+Detta kommer att producera utmatningen:
+3 6 9 12 15 18 21 24 27 30
+
+3. Loopa igenom en sträng:
+# Kodexempel för att loopa igenom en sträng
+text = "Python"
+for char in text:
+    print(char)
+
+Detta kommer att skriva ut varje tecken i strängen "Python" på en ny rad.
