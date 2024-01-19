@@ -1,0 +1,89 @@
+1. Vad menas med en bit? Vad menas med en byte?
+En bit:
+
+En bit är den grundläggande enheten för digital information och datalagring. Den kan anta ett av två möjliga värden, vanligtvis representerade som 0 eller 1. Biten är den minsta enheten av data och är grundläggande för alla digitala beräkningar och representationer.
+
+En byte:
+
+En byte består vanligtvis av åtta bitar. Det är en enhet som används för att mäta datamängder och lagringskapacitet. En byte kan representera 256 olika värden (2^8), och det används ofta för att representera en bokstav, ett tecken eller en annan liten enhet av information. Till exempel, i ASCII-kodning representerar en byte en teckenkod.
+
+2. Talbasen är det antal olika siffror som används för att representera tal i ett positionssystem. Här är svaren för de tre olika talbaserna:
+
+Decimala tal:
+I decimala systemet använder vi talbasen 10. Det betyder att det finns tio olika siffror från 0 till 9.
+
+Binära tal:
+I det binära systemet använder vi talbasen 2. Det betyder att det finns bara två olika siffror, 0 och 1.
+
+Hexadecimala tal:
+I det hexadecimala systemet använder vi talbasen 16. Det betyder att det finns sexton olika siffror, där de första tio är 0 till 9, och de följande sex representeras av bokstäverna A till F.
+
+3. # Skapa en lista med några element
+min_lista = [1, 2, 3, 4, 5]
+
+# Skriv ut hela listan
+print(min_lista)
+
+# Tilldela en lista till en variabel
+djur = ['hund', 'katt', 'fågel', 'fisk']
+
+# Skriv ut elementen i listan
+for djur_art in djur:
+    print(djur_art)
+
+[1, 2, 3, 4, 5]
+hund
+katt
+fågel
+fisk
+
+4. 
+# Skapa en tuple med några element
+min_tuppel = (1, 2, 3, 4, 5)
+
+# Skriv ut hela tupeln
+print(min_tuppel)
+
+# Tilldela en tuple till en variabel
+färger = ('röd', 'grön', 'blå')
+
+# Skriv ut elementen i tupeln
+for färg in färger:
+    print(färg)
+
+(1, 2, 3, 4, 5)
+röd
+grön
+blå
+
+5. Vad är det för skillnad mellan listor och tipplar? Med vilken funktion kan man ta fram längden på en lista eller en tippel?
+
+Skillnaden mellan listor och tuplar i Python har framför allt att göra med deras egenskaper gällande föränderlighet och syntax. Här är en sammanfattning av skillnaderna:
+
+Föränderlighet:
+
+Lista: Är föränderliga (mutable), vilket innebär att du kan lägga till, ta bort eller ändra element i en befintlig lista.
+Tuppel: Är oföränderliga (immutable). Efter att en tupel har skapats, kan du inte ändra dess innehåll.
+Syntax:
+
+Lista: Skapas med hakparenteser, till exempel min_lista = [1, 2, 3].
+Tuppel: Skapas med parenteser, till exempel min_tuppel = (1, 2, 3).
+Användning:
+
+Lista: Används när du behöver en dynamisk och föränderlig sekvens av element. Listor är lämpliga när du vill göra ändringar i sekvensen över tid.
+Tuppel: Används när du har data som inte ska ändras. Tuplar är lämpliga för att representera konstanter eller data som inte bör förändras.
+
+För att ta fram längden av en lista eller en tupel används funktionen len()
+
+min_lista = [1, 2, 3, 4, 5]
+längd_av_lista = len(min_lista)
+print(f"Längden på listan är: {längd_av_lista}")
+
+min_tuppel = (10, 20, 30, 40, 50)
+längd_av_tuppel = len(min_tuppel)
+print(f"Längden på tupeln är: {längd_av_tuppel}")
+
+Resultat: 
+
+Längden på listan är: 5
+Längden på tupeln är: 5
