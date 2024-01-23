@@ -1,4 +1,4 @@
-1.Vad menas med källkod? 
+1.Vad menas med källkod?
 
 # Källkod, även kallat källkodsfil eller bara kod, är den mänskligt läsbara texten som utgör en datorprogramvara. Det är den uppsättning instruktioner och kommandon som en programmerare skriver för att skapa ett program. Källkoden är skriven i ett programmeringsspråk och innehåller de logiska och syntaktiska elementen som behövs för att beskriva hur programmet ska fungera.
 
