@@ -1,0 +1,20 @@
+1. Hur skapar man funktioner i Python? 
+För att skapa en funktion i Python använder du nyckelordet def följt av funktionsnamnet och parenteser (), där eventuella parametrar placeras inuti parenteserna. Sedan följer en kolon : som markerar början på funktionskroppen, som innehåller koden som ska utföras när funktionen anropas.
+
+def hälsning(namn):
+    print("Hej", namn)
+
+hälsning("Alice")
+
+
+2. Vad menas med att anropa en funktion i ett program?
+Att anropa en funktion i ett program innebär att du anger funktionsnamnet följt av parenteser (). När funktionen anropas, utförs koden som definierats inuti funktionen.
+
+3. Vilka är fördelarna med att använda funktioner när man bygger upp ett program?
+Återanvändbarhet: Funktioner tillåter dig att skriva kod en gång och använda den igen och igen genom att helt enkelt anropa funktionen när det behövs.
+
+Modularitet: Genom att bryta ner en större uppgift i mindre, mer hanterbara delar med hjälp av funktioner blir koden mer lättläst och underhållbar.
+
+Abstraktion: Funktioner tillåter dig att abstrahera detaljer och fokusera på vad en viss bit kod gör snarare än hur den gör det. Detta gör koden mer lättförståelig och lätt att arbeta med.
+
+Testbarhet: Funktioner gör det lättare att testa och felsöka kod eftersom varje funktion kan testas separat för att säkerställa att den fungerar korrekt.
