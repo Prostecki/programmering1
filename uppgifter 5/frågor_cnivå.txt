@@ -1,0 +1,31 @@
+1. Vad menas med logiska fel i ett program?
+Visa ett exempel.
+
+Logiska fel i ett program uppstår när själva logiken i programmet är felaktig, vilket leder till felaktiga resultat även om den syntaktiska koden är korrekt. Det innebär att programmet fungerar, men det gör inte det som förväntas av det.
+
+# Program för att avgöra om ett tal är jämnt
+num = int(input("Ange ett tal: "))
+
+if num % 2 == 0:
+    print("Talet", num, "är jämnt.")
+else:
+    print("Talet", num, "är udda.")
+
+Programmet antar att det kontrollerar om ett tal är jämnt eller udda. Men om användaren anger ett icke-numeriskt värde, till exempel en sträng, kan programmet inte utföra operationen % (resten efter division) och det leder till ett fel vid körningstid. Detta är en logisk fel eftersom programmet inte hanterar fallet när inmatningsdata inte är numeriska.
+
+2. För att undvika att programmet kraschar bör man ta hand om inträffade fel.
+Det kan man föra med try-except i Python.
+Visa ett exempel.
+
+Try-except-block i Python används för att hantera undantag (errors) som kan uppstå under körningstid, vilket kan bidra till att förhindra att programmet kraschar oväntat. Här är ett exempel på hur man använder try-except för att hantera fel vid inmatning av nummer:
+
+try:
+    num = int(input("Ange ett tal: "))
+    if num % 2 == 0:
+        print("Talet", num, "är jämnt.")
+    else:
+        print("Talet", num, "är udda.")
+except ValueError:
+    print("Felaktig inmatning! Ange endast heltal.")
+
+I detta exempel, om användaren anger något som inte kan konverteras till ett heltal (till exempel en sträng eller ett decimaltal), kommer ValueError att uppstå när int(input("Ange ett tal: ")) försöker att utföra konverteringen. Try-except-blocket fångar detta undantag och programmet fortsätter att köra, medan det skriver ut ett meddelande om att användaren ska ange endast heltal. På så sätt undviker man att programmet kraschar på grund av felaktig inmatning.
